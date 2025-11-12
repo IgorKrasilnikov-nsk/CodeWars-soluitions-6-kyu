@@ -23,10 +23,10 @@ sum	  digits left	  action
 So, what is your number?
 */
 function solution(date){
-  let numder = `${date.getMonth() + 1}${date.getDate()}${date.getFullYear()}`;
+  let number = `${date.getMonth() + 1}${date.getDate()}${date.getFullYear()}`;
   let sum = 0;
 
-  for (let char of numder) {
+  for (let char of number) {
     sum += +char;
   }
        
